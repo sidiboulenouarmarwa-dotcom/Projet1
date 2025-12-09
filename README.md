@@ -21,3 +21,12 @@ print(df,"\n\n")
 
 # Opérations sur Les tableaux: 
 print("************* Operations *************")
+
+#2) Sélectionner la colonne "Longueur"
+longueur = df["Longueur"]
+print(longueur)
+
+
+
+
+
