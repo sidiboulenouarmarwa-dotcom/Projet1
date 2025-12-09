@@ -15,7 +15,7 @@ data= { "Séquence": ["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","
 df=pd.DataFrame(data) 
 print("*************Creation et affichage *************")
 
-#Affichage du tableau 
+# Affichage du tableau 
 print("tableau des séquences ADN :")
 print(df,"\n\n")
 
