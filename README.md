@@ -57,7 +57,7 @@ print(df)
 # 6) Ajouter une collonne donnant le nombre de 'G' dans chaque séquence 
 df["Nombre de G"]  = df["Séquence "].str.count("G") 
 
-Héaoutéajutéajotéajoutés
-
+print("====Nombre de G ajoutés ====") 
+print(df,"\n") 
 
 
