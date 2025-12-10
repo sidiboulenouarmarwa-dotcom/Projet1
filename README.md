@@ -47,11 +47,11 @@ def categorie_gc(gc):
     elif gc >= 45:
        return "Moyen" 
     else: 
-       return "Faible" 
+       return "Faible"  
 
 df["Catégorie GC"] = df["Pourcentage  GC"].apply(categorie_gc)
 
-print(df) 
+print(df)
 
 
 # 6)Ajouter une colonne donnant le nombre de 'G' dans chaque séquences
