@@ -54,8 +54,8 @@ df["Catégorie GC"] = df["Pourcentage  GC"].apply(categorie_gc)
 print(df) 
 
 
-# 6) Ajouter une colonne donnant le nombre de 'G' dans chaque séquences
-df["Nombre de G"] = df["Séquence "].str.count("G") 
+# 6)Ajouter une colonne donnant le nombre de 'G' dans chaque séquences
+df["Nombre de G"] = df["Séquence"].str.count("G") 
 
 print("==== Nombre de G ajoutés ====") 
 print(df,"\n") 
