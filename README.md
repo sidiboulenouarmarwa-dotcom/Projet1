@@ -74,3 +74,8 @@ print("Écart-type de La Longueur :", ecart_type_longueur)
 # sauvegarde Le DataFrame dans un fichier CSV
 df.to_csv ("tableau_sequences.csv", index =False)
 
+# Télécharger un fichier CSV et le mettre dans un DataFrame 
+# charger un fichier CSV dans un DataFrame 
+# df_loaded = pd.read_csv("tableau_sequences.csv")
+# print(df_loaded)
+
