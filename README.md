@@ -72,5 +72,5 @@ print("Écart-type de La Longueur :", ecart_type_longueur)
 
 # 8) Sauvegarde et changement des données avec panda 
 # sauvegarde Le DataFrame dans un fichier CSV
-df.to_csv ("tableau_sequences.csv", index =false)
+df.to_csv ("tableau_sequences.csv", index =False)
 
