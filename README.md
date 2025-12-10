@@ -1,4 +1,4 @@
-#de'G'et1
+#project1
 #pandas with sidi boulenouar marwa nawel master 1 B.A 10/12/2025
 #Ziani Nourhan
 #Zerrouki Khawla 
@@ -54,11 +54,10 @@ df["Catégorie GC"]  = df["Pourcentage  GC"]. apply(categorie_gc)#
 print(df) 
 
 
-# 6) Ajouter une collonne donnant le nombre
-de 'G' dans chaque séquence 
+# 6) Ajouter une collonne donnant le nombre de 'G' dans chaque séquence 
 df["Nombre de G"]  = df["Séquence "].str.count("G") 
 
-print("====Nombre de G ajoutés ====") 
+print("==== Nombre de G ajoutés ====") 
 print(df,"\n") 
 #7) Calculer L'écart -type du %GC et de La Longueur des séquences print("**********Écrat-type **********")
 
