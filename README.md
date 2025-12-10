@@ -38,22 +38,13 @@ print("************ Calcul de la moyenne *************")
 average_gc = df["Pourcentage GC"].mean()
 print(f"Pourcentage moyen de GC : {average_gc:.3f}%")
 
-# 5) Ajouter une nouvelle colonne  "Catégorie GC" 
+# 5) Ajouter une nouvelle colonne
 print("********** Ajout de la colonne Catégorie GC **********") 
 # Ajouter une nouvelle colonne "Catégorie GC"
-def categorie_gc(gc): 
-    if gc > 55:
-       return  "Riche" 
-    elif gc >= 45:
-       return "Moyen" 
-    else: 
-       return "Faible"  
-
-df["Catégorie GC"] = df["Pourcentage  GC"].apply(categorie_gc)
-
-print(df)
-
-
+df["catégorie GC"] = df["pourcentage GC"].apply (
+    lambda x: "Riche" if x > 55 else ("Moyen" if 45 <= x <= 55 else "Faible") 
+)
+print(df,"\n")
 # 6)Ajouter une colonne donnant le nombre de 'G' dans chaque séquences
 df["Nombre de G"] = df["Séquence"].str.count("G") 
 
