@@ -59,9 +59,11 @@ df["Nombre de G"]  = df["Séquence "].str.count("G")
 
 print("==== Nombre de G ajoutés ====") 
 print(df,"\n") 
-#7) Calculer L'écart -type du %GC et de La Longueur des séquences print("**********Écrat-type **********")
+#7) Calculer L'écart -type du %GC et de La Longueur des séquences print("**********Écart-type **********")
 
-ecrat_type_gs = df["Pourcentage GC"].std()
-ecrat_type_longueur = df ["Longueur"].std()
+ecart_type_gs = df["Pourcentage GC"].std()
+ecart_type_longueur = df ["Longueur"].std()
 
+print("Écart-type du %GC : , ecart_type_gs)
+print("Écart-type de La Longueur :",ecart_type_longueur)
 
