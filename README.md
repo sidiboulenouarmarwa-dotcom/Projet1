@@ -1,6 +1,6 @@
 #project1
 #pandas with sidi boulenouar marwa nawel master 1 B.A 10/12/2025
-#Ziani Nourhan
+#Ziani Norhane Ikram
 #Zerrouki Khawla 
 #Haddouche Bouchra
 import pandas as pd 
