@@ -1,5 +1,5 @@
 #project1
-#pandas with sidi boulenouar marwa nawel master 1 B.A 10/12/2025
+#pandas with sidi boulenouar marwa nawel master 1 Biochimie appliquée 10/12/2025
 #Ziani Norhane Ikram
 #Zerrouki Khawla 
 #Haddouche Bouchra
